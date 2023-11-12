@@ -22,7 +22,7 @@ The API has two endpoints:
 
 For example, to get a random number between 1 and 10, you can run the following, where API-KEY is the API key:
 ```
-curl -H "Authorization: "API-KEY" http://127.0.0.1:5000/randomNumber/1/10
+curl -H "Authorization: API-KEY" http://127.0.0.1:5000/randomNumber/1/10
 ```
 
 And this will return the random number in the header contents:
